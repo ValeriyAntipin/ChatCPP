@@ -1,0 +1,4 @@
+/home/valerii/CHATCPP/build/CMakeFiles/ChatClient.dir
+/home/valerii/CHATCPP/build/CMakeFiles/ChatServer.dir
+/home/valerii/CHATCPP/build/CMakeFiles/edit_cache.dir
+/home/valerii/CHATCPP/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/valerii/CHATCPP/build",
+  "command": "/usr/bin/c++  -I/home/valerii/CHATCPP/include -I/path/to/mysql-connector-c++/include -g -std=gnu++17 -o CMakeFiles/ChatClient.dir/src/TcpClient.cpp.o -c /home/valerii/CHATCPP/src/TcpClient.cpp",
+  "file": "/home/valerii/CHATCPP/src/TcpClient.cpp"
+},
+{
+  "directory": "/home/valerii/CHATCPP/build",
+  "command": "/usr/bin/c++  -I/home/valerii/CHATCPP/include -I/path/to/mysql-connector-c++/include -g -std=gnu++17 -o CMakeFiles/ChatClient.dir/src/chat.cpp.o -c /home/valerii/CHATCPP/src/chat.cpp",
+  "file": "/home/valerii/CHATCPP/src/chat.cpp"
+},
+{
+  "directory": "/home/valerii/CHATCPP/build",
+  "command": "/usr/bin/c++  -I/home/valerii/CHATCPP/include -I/path/to/mysql-connector-c++/include -g -std=gnu++17 -o CMakeFiles/ChatServer.dir/src/TcpServer.cpp.o -c /home/valerii/CHATCPP/src/TcpServer.cpp",
+  "file": "/home/valerii/CHATCPP/src/TcpServer.cpp"
+},
+{
+  "directory": "/home/valerii/CHATCPP/build",
+  "command": "/usr/bin/c++  -I/home/valerii/CHATCPP/include -I/path/to/mysql-connector-c++/include -g -std=gnu++17 -o CMakeFiles/ChatServer.dir/src/chat.cpp.o -c /home/valerii/CHATCPP/src/chat.cpp",
+  "file": "/home/valerii/CHATCPP/src/chat.cpp"
+}
+]
