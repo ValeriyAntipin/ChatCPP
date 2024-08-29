@@ -5,6 +5,7 @@
 #include <unistd.h>
 #include <arpa/inet.h>
 #include "chat.h"
+#include "logger.h"
 
 
 void sendCommand(int sock, std::string& command){
@@ -23,7 +24,8 @@ char buf[1024];
 
 int main(){
 
-    Chat chat;
+    //Chat chat;
+    
 
     using namespace std;
 

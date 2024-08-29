@@ -6,9 +6,13 @@
 #include <cppconn/exception.h>
 #include <cppconn/prepared_statement.h>
 #include <memory.h>
+#include "logger.h"
+
+
 
 class Chat {
 private:
+            Logger logger;
             sql::Driver *driver;
             std::unique_ptr<sql::Connection> con;
 public:

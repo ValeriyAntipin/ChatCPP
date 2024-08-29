@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ChatClient.dir/src/TcpClient.cpp.o.d"
   "CMakeFiles/ChatClient.dir/src/chat.cpp.o"
   "CMakeFiles/ChatClient.dir/src/chat.cpp.o.d"
+  "CMakeFiles/ChatClient.dir/src/logger.cpp.o"
+  "CMakeFiles/ChatClient.dir/src/logger.cpp.o.d"
   "ChatClient"
   "ChatClient.pdb"
 )

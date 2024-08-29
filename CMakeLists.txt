@@ -15,8 +15,8 @@ include_directories(${MYSQL_CONNECTOR_CPP_INCLUDE_DIR})
 link_directories(${MYSQL_CONNECTOR_CPP_LIB_DIR})
 
 # Определите исполняемые файлы
-add_executable(ChatClient src/TcpClient.cpp src/chat.cpp)
-add_executable(ChatServer src/TcpServer.cpp src/chat.cpp)
+add_executable(ChatClient src/TcpClient.cpp src/chat.cpp src/logger.cpp)
+add_executable(ChatServer src/TcpServer.cpp src/chat.cpp src/logger.cpp)
 
 # Линкуем библиотеки MySQL Connector/C++
 target_link_libraries(ChatClient mysqlcppconn)

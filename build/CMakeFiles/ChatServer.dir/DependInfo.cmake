@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/valerii/CHATCPP/src/TcpServer.cpp" "CMakeFiles/ChatServer.dir/src/TcpServer.cpp.o" "gcc" "CMakeFiles/ChatServer.dir/src/TcpServer.cpp.o.d"
   "/home/valerii/CHATCPP/src/chat.cpp" "CMakeFiles/ChatServer.dir/src/chat.cpp.o" "gcc" "CMakeFiles/ChatServer.dir/src/chat.cpp.o.d"
+  "/home/valerii/CHATCPP/src/logger.cpp" "CMakeFiles/ChatServer.dir/src/logger.cpp.o" "gcc" "CMakeFiles/ChatServer.dir/src/logger.cpp.o.d"
   )
 
 # Targets to which this target links.

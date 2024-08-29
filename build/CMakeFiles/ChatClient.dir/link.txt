@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/ChatClient.dir/src/TcpClient.cpp.o CMakeFiles/ChatClient.dir/src/chat.cpp.o -o ChatClient   -L/path/to/mysql-connector-c++/lib  -Wl,-rpath,/path/to/mysql-connector-c++/lib -lmysqlcppconn 
+/usr/bin/c++ CMakeFiles/ChatClient.dir/src/TcpClient.cpp.o CMakeFiles/ChatClient.dir/src/chat.cpp.o CMakeFiles/ChatClient.dir/src/logger.cpp.o -o ChatClient   -L/path/to/mysql-connector-c++/lib  -Wl,-rpath,/path/to/mysql-connector-c++/lib -lmysqlcppconn 

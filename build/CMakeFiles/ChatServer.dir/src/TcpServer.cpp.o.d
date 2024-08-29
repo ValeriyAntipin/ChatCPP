@@ -225,7 +225,13 @@ CMakeFiles/ChatServer.dir/src/TcpServer.cpp.o: \
  /usr/include/inttypes.h /usr/include/cppconn/resultset.h \
  /usr/include/cppconn/resultset_metadata.h \
  /usr/include/cppconn/datatype.h /usr/include/memory.h \
- /usr/include/string.h /usr/include/strings.h /usr/include/mysql/mysql.h \
+ /usr/include/string.h /usr/include/strings.h \
+ /home/valerii/CHATCPP/include/logger.h /usr/include/c++/11/fstream \
+ /usr/include/c++/11/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+ /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/shared_mutex \
+ /usr/include/c++/11/bits/std_mutex.h /usr/include/mysql/mysql.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
  /usr/include/mysql/field_types.h /usr/include/mysql/my_list.h \
  /usr/include/mysql/mysql_com.h /usr/include/mysql/my_command.h \

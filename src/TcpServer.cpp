@@ -6,6 +6,7 @@
 #include <unistd.h>
 #include <thread>
 #include "chat.h"
+#include "logger.h"
 
 #include <mysql/mysql.h>
 #include <mysql_driver.h>
@@ -13,7 +14,6 @@
 #include <cppconn/prepared_statement.h>
 #include <cppconn/exception.h>
 #include <memory.h>
-
 
 Chat chat;
 
@@ -70,7 +70,9 @@ void commandsClient(int client_socket){
                         content.erase(0, 1);
                     }
                     if(chat.sendMessage(sender, receiver, content))
+                    {
                         response = "Message was sent\n";
+                    }
                     else
                         response = "Message wan't sent\n";
                 }

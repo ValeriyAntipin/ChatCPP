@@ -40,6 +40,7 @@ bool Chat::sign_in(const std::string &login, const std::string &password)
         pr_stmt->setString(2, password);
         std::unique_ptr<sql::ResultSet> res (pr_stmt->executeQuery());
 
+
         return res->next();
     }   catch(sql::SQLException& e){
         std::cerr << "SQL error: " << e.what() << std::endl;
@@ -72,7 +73,9 @@ bool Chat::sendMessage(const std::string& sender, const std::string& receiver, c
         pr_stmt->setInt(2, receiver_id);
         pr_stmt->setString(3, text);
         pr_stmt->executeUpdate();
-
+        //реализация записи логов.
+        std::string log = sender + " try send: " + text + " to: " + receiver;
+        logger.setLog(log);
         return true;
     } catch (sql::SQLException& e){
         std::cerr << "SQL error: " << e.what() << std::endl;
